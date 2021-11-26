@@ -16,8 +16,9 @@ export const Card = styled.div`
 
   > p {
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     text-align: center;
+    font-weight: 700;
   }
 
   > span {

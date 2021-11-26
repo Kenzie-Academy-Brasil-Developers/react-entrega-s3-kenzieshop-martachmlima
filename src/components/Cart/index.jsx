@@ -31,13 +31,13 @@ const Cart = () => {
         {cart.length === 0 ? (
           <span>Carrinho vazio</span>
         ) : (
-          <>
-            <span>{cart.length} produtos</span>
+          <section>
+            <span>{cart.length} produto(s)</span>
             <span>
               Total: R{`$ `}
               {totalPrice}{" "}
             </span>
-          </>
+          </section>
         )}
         <button>Finalizar pedido</button>
       </CartContainer>
